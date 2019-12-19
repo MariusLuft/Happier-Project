@@ -1,0 +1,62 @@
+<html lang = "de">
+    <head>
+        <link href="stylesheet.css" rel="stylesheet">
+        <script src="Skript.js" type="text/javascript"></script>
+		<title>Happier</title>
+    </head>
+    <body>
+        <div class = "wrapper">
+
+            <h1 id="hallo"class = "stretch">Happier</h1>
+
+            <div class="stretch" id = "kategorie">
+                <select id="kat">
+                    <option>Sport</option>
+                    <option>Familie</option>
+                    <option>Freunde</option>
+                    <option>Arbeit</option>
+                    <option>Reise</option>
+                    <option>Musik</option>
+                    <option>Unterhaltung</option>
+                    <option>Generell</option>
+                </select>
+            </div><!--kategorie-->
+
+            <p class = "stretch">Notiz:</p>
+
+            <div class = "stretch">
+                <textarea id = "notiz" type="text" rows="30" placeholder="Fuege hier deine Notiz ein"></textarea>
+            </div><!--notiz-->
+
+            <div class ="stretch" id="pic">
+                <img src="Pictures/Smiley2.png" alt="smiley1" style="width:113px;height:113px;">
+            </div><!--pic-->
+
+            <div class = "stretch">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange" oninput="smileyChange()">
+                </div><!--slidecontainer-->
+            </div><!--stretch-->   
+
+            <br><br>
+
+            <div class = "stretch">
+                <div class="buttons" >
+                    <a href=# onclick="newEntry()">
+                        <img src="Pictures/checkmark.png" alt="check" style="width:120px;height:120px;" >
+                    </a> 
+        
+                    <a href="Statwindow.html">
+                        <img src="Pictures/stats.png" alt="stats" style="width:120px;height:120px;" >
+                    </a>            
+                </div><!--buttons-->
+            </div><!--stretch-->   
+        </div><!--wrapper-->
+
+    </body>
+</html>
+
+<!--    
+    feed
+    fake woche
+-->

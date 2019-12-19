@@ -1,0 +1,247 @@
+body{
+	background-color:#E4E1E0;
+	text-align:center;
+	font-size:25px;
+	}
+	
+
+	h1{
+		color: black;
+        text-shadow: 3px 3px 3px black;
+        opacity: 0.85;
+        margin:0 0 20 0;
+	}
+	
+	select{
+		width:500px;
+		height:45px;
+		font-size:21px;
+		padding:8px 15px;
+		background-color:#CDC7C5;
+        color:black;	
+        margin-left: 0;	
+	}
+	
+	textarea{
+		width:500px;
+		height:175px;
+		font-size:20px;
+		background-color:#CDC7C5;
+		color:black;
+	}
+
+    .date{
+        margin:0 0 20 0;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .slidecontainer {
+        width: 100%; /* Width of the outside container */
+    }
+
+    /* The slider itself */
+    .slider {
+        -webkit-appearance: none; /* Override default CSS styles */
+        appearance: none;
+        width: 27%; /* Full-width */
+        height: 25px; /* Specified height */
+        background: #d3d3d3; /* Grey background */
+        outline: none; /* Remove outline */
+        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+    }
+
+    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+    .slider::-webkit-slider-thumb {
+          -webkit-appearance: none; /* Override default look */
+          appearance: none;
+          width: 25px; /* Set a specific slider handle width */
+          height: 25px; /* Slider handle height */
+          background: #4CAF50; /* Green background */
+          cursor: pointer; /* Cursor on hover */
+    }   
+
+    .headers{
+        font-size: 35;
+        font-weight: bold;
+        margin:0 0 20 0;
+    }
+    .small-headers{
+        font-size: 28;
+        font-weight: bold;
+        margin:0 0 20 0;
+        color: orange;
+    }
+    .small-headers2{
+        font-size: 28;
+        font-weight: bold;
+        margin:30 0 0 0;
+        color: orange;
+    }
+
+    #TagWoche{
+        width:200px;
+    }
+    .container {
+        position: relative;
+    }
+
+
+    .centered {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .centered2 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+
+      .bottom-right {
+        position: absolute;
+        top: 65%;
+        left: 52%;        
+      }
+      .fat{
+        font-weight: bold;
+        font-size: 26;
+      }
+
+      .fat2{
+        font-weight: bold;
+        font-size: 17;
+      }
+    
+
+      .text{
+          line-height: 25px;          
+          text-align:left;
+          margin-top: 0;
+      }
+
+      .text2{
+        line-height: 25px;
+        text-align:center;
+        font-weight: bold;
+        font-size:25px;
+      }
+
+      .mymargin{
+          margin-left:110px;
+      }
+
+      .lineup{
+          float:left;
+      }
+
+      .middle{
+          justify-items: center;
+      }
+      .wrapper{
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: minmax(50px,auto);
+          width: 100%;
+
+      }
+
+      .wrapper2{
+        display:grid;
+        grid-template-columns: repeat(1fr, 3);
+        grid-template-rows: minmax(50px,auto);
+        width: 100%;
+
+    }
+
+      .stretch{
+          grid-column: 1 / -1;
+          justify-items: center;
+      }
+
+      .stretch2{
+        grid-column: 2;
+        justify-items: center;
+    }
+
+      .right{
+        grid-column: 3;
+        justify-items: center;
+    }
+
+    .right2{
+        float:right;
+        margin-right: 120px;
+    }
+
+    .overlap{
+        grid-row:1;
+        grid-column: 2;
+        justify-items: center;
+    }
+
+    .littlegrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(100px,auto);
+    }
+
+    .littlegrid2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(auto,auto);
+    }
+
+    .feedgrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(auto,100px);
+    }
+
+    .littlegrid-right{
+        grid-column: 2; 
+        text-align:left;   
+          
+    }
+    .littlegrid-right-container{
+        grid-column: 2; 
+        text-align:left; 
+        position:relative;     
+    }
+
+    .littlegrid-veryright-container{
+        grid-column: 3; 
+        text-align:left; 
+        position:relative;     
+    }
+
+    .littlegrid-left{
+        grid-column: 1;
+    }
+
+    .littlegrid-left-container{
+        grid-column: 1;
+        position:relative;
+    }
+
+    .littlegrid-veryright{
+        grid-column: 3; 
+    }
+
+    #text2{
+        height: auto;
+    }
+
+    
+    
+
+
+    
